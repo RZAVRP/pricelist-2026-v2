@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RZASENSIX V2.0 · Ultimate Gaming Optimization</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="RZASENSIX V2.0 - Premium Gaming Optimization untuk Android. Boost performa gaming maksimal dengan teknologi terkini.">
+    <meta name="keywords" content="gaming optimization, android gaming, rzasensix, performance boost">
+    <meta name="author" content="RZASENSIX Team">
+    
+    <!-- Enhanced Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self';">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="RZASENSIX V2.0 - Ultimate Gaming Optimization">
+    <meta property="og:description" content="Tingkatkan performa gaming Android Anda ke level maksimal">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Enhanced Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <h1 class="preloader-logo">RZASENSIX</h1>
+            <div class="preloader-progress">
+                <div class="preloader-bar" id="preloaderBar"></div>
+            </div>
+            <p class="preloader-text">INITIALIZING...</p>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="site-wrapper">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="header-badge reveal">VERSION 2.0</div>
+            <h1 class="header-title reveal">RZASENSIX</h1>
+            <p class="header-subtitle reveal">ULTIMATE GAMING OPTIMIZATION</p>
+        </header>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Ultra Fast Response</h3>
+                    <p class="feature-desc">Responsivitas maksimal untuk gaming kompetitif</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🎮</div>
+                    <h3 class="feature-title">Gaming Mode Pro</h3>
+                    <p class="feature-desc">Optimasi khusus untuk game freefire </p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Performance Boost</h3>
+                    <p class="feature-desc">Tingkatkan FPS dan kurangi lag drastis</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Anti Frame Drop</h3>
+                    <p class="feature-desc">Stabilitas performa tanpa penurunan FPS</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing">
+            <h2 class="section-title reveal">CHOOSE YOUR PLAN</h2>
+            
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card reveal-left" data-plan="basic">
+                    <div class="pricing-tier">STARTER</div>
+                    <h3 class="pricing-name">BASIC</h3>
+                    <div class="pricing-price">
+                        15 k<small>IDR</small>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>⚡ Basic Touch Responsiveness Boost</li>
+                        <li>⚡ Stable FPS System</li>
+                        <li>⚡ Automatic Cache Cleaner</li>
+                        <li>⚡ Light Background Process Killer</li>
+                        <li>⚡ Basic RAM Optimization</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="orderPlan('BASIC')">
+                        ORDER NOW
+                    </button>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card featured reveal" data-plan="pro">
+                    <div class="pricing-tier">PROFESSIONAL</div>
+                    <h3 class="pricing-name">PRO</h3>
+                    <div class="pricing-price">
+                        35K<small>IDR</small>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>🚀 Pro FPS Booster System</li>
+                        <li>🚀 CPU & GPU Performance Optimization</li>
+                        <li>🚀 Thermal Stability Tweak (Anti Frame Drop)</li>
+                        <li>🚀 Gaming Ping Optimizer</li>
+                        <li>🚀 Unlock 90Hz / 120Hz Refresh Rate (Supported Devices)</li>
+                        <li>🚀 Advanced Rendering Engine Tweak</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="orderPlan('PRO')">
+                        ORDER NOW
+                    </button>
+                </div>
+
+                <!-- Ultimate Plan -->
+                <div class="pricing-card reveal-right" data-plan="ultimate">
+                    <div class="pricing-tier">ULTIMATE</div>
+                    <h3 class="pricing-name">ELITE</h3>
+                    <div class="pricing-price">
+                        55K<small>IDR</small>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>🔥 Ultra Touch Acceleration System</li>
+                        <li>🔥 Headshot Sensitivity Optimizer</li>
+                        <li>🔥 Dynamic Touch Sampling Rate Tweak</li>
+                        <li>🔥 Extreme FPS Unlock Technology</li>
+                        <li>🔥 Advanced SurfaceFlinger Optimization</li>
+                        <li>🔥 GPU Rendering Extreme Performance Mode</li>
+                        <li>🔥 Gaming Power Mode (CPU Limit Disabled)</li>
+                    </ul>
+                    <button class="pricing-btn" onclick="orderPlan('ELITE')">
+                        ORDER NOW
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="testimonials-container">
+                <h2 class="section-title reveal">WHAT USERS SAY</h2>
+                
+                <div class="testimonial-grid">
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Setelah pakai RZASENSIX, gaming experience saya benar-benar berubah. 
+                            No more lag, super smooth!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AK</div>
+                            <div class="author-info">
+                                <h4>Ahmad K.</h4>
+                                <p>anonim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Worth every penny! Touch response jadi super cepat, 
+                            perfect untuk game competitive."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">RS</div>
+                            <div class="author-info">
+                                <h4>Rizky S.</h4>
+                                <p>anonim</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card reveal">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">
+                            "Customer support yang responsive dan hasil optimization yang memuaskan. 
+                            Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">DN</div>
+                            <div class="author-info">
+                                <h4>Dinda N.</h4>
+                                <p>anonim</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <h2 class="footer-logo">RZASENSIX</h2>
+                
+                <div class="footer-links">
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#support">Support</a>
+                    <a href="#terms">Terms</a>
+                    <a href="#privacy">Privacy</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <span>IG</span>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="WhatsApp">
+                        <span>WA</span>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Telegram">
+                        <span> TT</span>
+                    </a>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>&copy; 2025 RZASENSIX V2.0. All rights reserved.</p>
+                    <p>Made with passion for gamers worldwide</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Order Confirmation Modal -->
+    <div class="modal" id="orderModal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <h3 class="modal-title">Confirm Order</h3>
+            <p class="modal-text" id="modalText">
+                You are about to order <span id="planName"></span> plan.
+            </p>
+            <div class="modal-buttons">
+                <button class="modal-btn secondary" onclick="closeModal()">Cancel</button>
+                <button class="modal-btn primary" id="confirmOrder">Proceed to WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
